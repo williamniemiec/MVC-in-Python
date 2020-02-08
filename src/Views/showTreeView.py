@@ -34,41 +34,6 @@ class ShowTreeView(tk.Tk):
     def update(self):
         self.frame_customers.destroy()
         self._show_customers()
-    
-    '''
-    def _createTable(self):
-        frame_table = tk.Frame(self.frame_main)
-        frame_table.pack()
-        self.frame_table = frame_table
-        
-        # Cria TreeView widget
-        tv = ttk.Treeview(frame_table)
-        
-        # Cria colunas dando nome a elas (para poderem ser referenciadas)
-        tv['columns'] = ["fName", "lName", "zip", "pp"]
-        
-        # Seta informações das colunas
-        tv.heading("#0", text="Id", anchor=tk.W)
-        tv.column("#0", anchor=tk.W, width=10)
-
-        tv.heading("fName", text="First name")
-        tv.column("fName", anchor="center", width=200)
-        tv.heading("lName", text="Last name")
-        tv.column("lName", anchor="center", width=200)
-        tv.heading("zip", text="Zipcode")
-        tv.column("zip", anchor="center", width=100)
-        tv.heading("pp", text="Price paid")
-        tv.column("pp", anchor="center", width=100)
-        
-        # Coloca tree view no frame
-        tv.grid(sticky=(tk.N, tk.S, tk.W, tk.E))
-        tv.grid_rowconfigure(0, weight=1)
-        tv.grid_columnconfigure(0, weight=1)
-        
-        # Adiciona listener para habilitar context menu
-        tv.bind("<Button-3>", self.contextMenu_display)
-        self.tv = tv
-    '''
         
     
     def _contextMenu_display(self, event):
