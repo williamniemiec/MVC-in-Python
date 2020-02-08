@@ -19,7 +19,6 @@ class ShowTreeView(tk.Tk):
         self._show_customers()
     
     def main(self):
-        self.attributes("-topmost", True)
         self.mainloop()
         
     def _make_mainFrame(self):
