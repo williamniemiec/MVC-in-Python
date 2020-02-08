@@ -4,7 +4,7 @@
 This project aims to show an application that uses the design pattern MVC (Model View Controller) using Python. Instead of create a project only with the essential MVC files, I decided to let the files from an application that i made, because I believe that this will make understanding easier of how the mechanics of MVC works in Python, in addiction to give you a general view of how to make a project with this pattern.
 
 ## Application execution
-If you want to execute the application to see how it works, you have to download the database file that the app uses. This file is in <code>db/customers.db</code>. After that, it's necessary to load the file in a server (local or online) with support to MySQL database. I executed the app using a local server (as I use Windows, I used "Wampp" to make a local server, but if you use another operational system, there are other similar softwares, like Xampp [for Linux] or Mamp [for Mac]).
+If you want to execute the application to see how it works, you have to download the database file that the app uses. This file is in <code>db/mvc.sql</code>. After that, it's necessary to load the file in a server (local or online) with support to MySQL database. I executed the app using a local server (as I use Windows, I used "Wampp" to make a local server, but if you use another operational system, there are other similar softwares, like Xampp [for Linux] or Mamp [for Mac]).
 Furthermore the app use "mysql connector" library; if you don't have it, it's necessary install it.
 ### Links
 - [mysql connector](https://pypi.org/project/mysql-connector-python/)
@@ -52,7 +52,7 @@ O objetivo desse projeto é mostrar uma implementação de uma aplicação que u
 
 ## Execução da aplicação
 
-Caso você decida executar a aplicação para ver como ela funciona, você deverá baixar o arquivo do banco de dados que a aplicação utiliza. Este se encontra em <code>db/customers.db</code>. Após isso, é necessário carregar o arquivo em um servidor (local ou online) com suporte à banco de dados MySQL. Eu executei utilizando um servidor local; como utilizo Windows, utilizei o "WAMPP" para criar um servidor local, mas caso você utilize outro sistema operacional, há outros softwares similares, como o XAMPP (para Linux) e MAMP (para Mac)
+Caso você decida executar a aplicação para ver como ela funciona, você deverá baixar o arquivo do banco de dados que a aplicação utiliza. Este se encontra em <code>db/mvc.sql</code>. Após isso, é necessário carregar o arquivo em um servidor (local ou online) com suporte à banco de dados MySQL. Eu executei utilizando um servidor local; como utilizo Windows, utilizei o "WAMPP" para criar um servidor local, mas caso você utilize outro sistema operacional, há outros softwares similares, como o XAMPP (para Linux) e MAMP (para Mac)
 Além disso, a aplicação utiliza a biblioteca "mysql connector"; caso você não tenha, é necessário instalar ela. 
 ### Links
 - [mysql connector](https://pypi.org/project/mysql-connector-python/)
