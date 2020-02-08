@@ -6,6 +6,8 @@ class Core:
     @staticmethod
     def openController(controller):
         response = None
+
+        # Set controller name
         controller = controller[0].upper()+controller[1:]
         controllerName = controller+"Controller"
         
