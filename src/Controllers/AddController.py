@@ -2,12 +2,12 @@ from tkinter import messagebox
 from tkinter.constants import END
 
 from Models.Customers import Customers
-from Views.add import Add
+from Core.Controller import Controller
 
 
-class AddController:
+class AddController(Controller):
     def __init__(self):
-        self.addView = Add(self)
+        self.addView = self.loadView("add")
         self.customers = Customers()
         
     def main(self):

@@ -5,8 +5,8 @@ class Main:
     @staticmethod
     def run():
         try:
-	        app = Core.openController("home")
-	        app.main()
+            app = Core.openController("home")
+            app.main()
         except Exception as e:
             print(str(e))
 

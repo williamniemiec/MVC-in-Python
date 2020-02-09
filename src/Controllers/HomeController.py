@@ -1,10 +1,10 @@
 # -*- encoding:utf-8 -*-
-from Views.home import Home
+from Core.Controller import Controller
 from Core.Core import Core
 
-class HomeController:
+class HomeController(Controller):
     def __init__(self):
-        self.homeView = Home(self)
+        self.homeView = self.loadView("Home")
     
     def main(self):
         self.homeView.main()

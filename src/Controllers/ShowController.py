@@ -1,13 +1,13 @@
 from Core.Core import Core
 from Models.Customers import Customers
-from Views.show import Show
+from Core.Controller import Controller
 from tkinter import messagebox
 
 
-class ShowController:
+class ShowController(Controller):
     def __init__(self):
         self.customers = Customers()
-        self.showView = Show(self)
+        self.showView = self.loadView("show")
         self.core = Core()
         
     def main(self):

@@ -1,13 +1,13 @@
 from Core.Core import Core
 from Models.Customers import Customers
-from Views.showTreeView import ShowTreeView
+from Core.Controller import Controller
 from tkinter import messagebox
 
 
-class ShowTreeViewController:
+class ShowTreeViewController(Controller):
     def __init__(self):
         self.customers = Customers()
-        self.showView = ShowTreeView(self)
+        self.showView = self.loadView("showTreeView")
         
     def main(self):
         self.showView.main()

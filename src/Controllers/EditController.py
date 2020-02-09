@@ -1,12 +1,12 @@
 from tkinter import messagebox
 
 from Models.Customers import Customers
-from Views.edit import Edit
+from Core.Controller import Controller
 
 
-class EditController:
+class EditController(Controller):
     def __init__(self):
-        self.editView = Edit(self)
+        self.editView = self.loadView("edit")
         self.customers = Customers()
         
     def main(self, customer, showView):
