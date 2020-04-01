@@ -1,7 +1,7 @@
 import unittest
+from core.Core import Core
+from controllers.HomeController import HomeController
 
-from Core.Core import Core
-from Controllers.HomeController import HomeController
 
 class CoreTest(unittest.TestCase):    
     def testName(self):

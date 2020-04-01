@@ -1,5 +1,6 @@
 # -*- encoding:utf-8 -*-
 from core.Controller import Controller
+from core.Core import Core
 
 
 """
@@ -16,6 +17,20 @@ class HomeController(Controller):
     #-----------------------------------------------------------------------
     #        Methods
     #-----------------------------------------------------------------------
+    """
+        Opens controller according to the option chosen
+    """
+    def btnClicked(self, caption):
+        if caption == "Open Customers DB":
+            c = Core.openController("show")
+            c.main()
+        elif caption == "Add customer":
+            c = Core.openController("add")
+            c.main()
+        elif caption == "Show customers with TreeView":
+            c = Core.openController("showTreeView")
+            c.main()
+            
     """
         @Override
     """
