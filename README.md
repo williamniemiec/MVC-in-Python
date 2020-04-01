@@ -46,7 +46,7 @@ Furthermore, all view classes must extend [View class](https://github.com/willia
 ## Export for personal project
 The contents of the [src folder](https://github.com/williamniemiec/MVC-in-Python/blob/master/src) are all you need to apply this pattern to your project.
 
-## Overview of a generic MVC Java framework structure
+## Overview of a generic MVC Python framework structure
 ![](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/uml/uml.png)
 
 ## Project organization
