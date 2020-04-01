@@ -13,9 +13,9 @@ Furthermore the app use "mysql connector" library; if you don't have it, it's ne
 
 ## Application photos
 #### Inicial window
-![Inicial window (Home)](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/home.PNG?raw=true)
+![Inicial window (Home)](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/example/home.PNG?raw=true)
 #### Show window
-![Show window (if you run the app, try to click with the mouse right button on a row))](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/showTreeView.PNG?raw=true)
+![Show window (if you run the app, try to click with the mouse right button on a row))](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/example/showTreeView.PNG?raw=true)
 #### Another show window without TreeView
-![Another show window without TreeView widget](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/show.PNG?raw=true)
+![Another show window without TreeView widget](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/example/show.PNG?raw=true)
 <hr>
