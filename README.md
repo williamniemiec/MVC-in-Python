@@ -6,7 +6,14 @@ This project aims to provide an MVC Python framework for you to use in your proj
 <hr />
 
 ## What is MVC?
-Briefly, MVC (Model View Controller) is a design pattern widely used in projects because it leaves the project structured in order to facilitate the identification of application modules, understand how it is structured, in addition to facilitating maintenance.
+Briefly, MVC (Model View Controller) is a design pattern widely used in projects because it leaves the project structured in order to facilitate the identification of application modules, understand how it is structured, in addition to facilitating maintenance. It structures the project in three modules:
+
+|Name| Funcion
+|------- | -------------- 
+|Models | Responsible for business logic
+|View | Responsible for the visual part
+|Controllers | Responsible for the behavior of the visual part
+
 
 ## How to use this structure in my project?
 The [core directory](https://github.com/williamniemiec/MVC-in-Python/blob/master/src/core) contains all classes responsible for MVC operations in Python. If you want to use this structure in your project, you need to know how to use the two classes contained in the core directory: [Core](https://github.com/williamniemiec/MVC-in-Python/blob/master/src/core/Core.py) (responsible for opening controllers) and [Controller](https://github.com/williamniemiec/MVC-in-Python/blob/master/src/core/Controller.py) (responsible for opening views).
@@ -55,17 +62,17 @@ The project is in src folder. In it, there are four folders and two files.
 ### /src
 |Name| Type| Function
 |------- | --- | ----
-| Controllers | `Directory`| Contains all application controllers
-| Core | `Directory`| Contains the classes responsable for the MVC operations in Python
-| Models | `Directory`| Contains all model application classes
-| Views | `Directory`| Contains all responsible classes for the visual of the application
+| controllers | `Directory`| Contains all application controller classes
+| core | `Directory`| Contains the classes responsable for the MVC operations in Python
+| models | `Directory`| Contains all application model classes
+| views | `Directory`| Contains all application view classes
 | config&#46;py | `File`| MVC configuration file (it is important for Core class)
 | Main&#46;py | `File`| File responsible for the application start
 
 ### /tests
 |Name| Type| Function
 |------- | --- | ----
-| Core | `Directory`| Contains all tests related to the Core class
+| core | `Directory`| Contains all tests related to the Core class
 
 
 ## Example
