@@ -1,7 +1,7 @@
 # MVC in Python
 ![](https://github.com/williamniemiec/MVC-in-Python/blob/master/media/logo/mvc-in-python_logo.jpg?raw=true)
 
-This project aims to provide an MVC Python framework for you to use in your projects. If you want to see an example of this framework there is a simple and complete example about a database manager. I believe that this example will make understanding easier of how the mechanics of MVC works in Python, in addiction to give you a general view of how to make a project with this pattern.
+This project aims to provide an MVC Python framework for you to use in your projects. If you want to see an example of this framework there is a simple and complete example about a database manager. I believe that this example will make understanding easier of how the mechanics of MVC works in Python, in addition to give you a general view of how to make a project with this pattern.
 
 <hr />
 
